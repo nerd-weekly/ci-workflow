@@ -3,3 +3,8 @@ python:
   - "3.5"
 # command to run tests
 script: python -m unittest *unit_test.py
+
+# safelist
+branches:
+  only:
+    - master
